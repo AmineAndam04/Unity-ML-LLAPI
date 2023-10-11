@@ -70,9 +70,13 @@ public class AgentScript : Agent
 }
 ```
  7. Select the object to which you assigned the agent script. In the inspector window set the parameters for the Behavior Parameters :
- 8. 
+ 
+    
     <img width="551" alt="Screenshot 2023-10-11 at 15 31 02" src="https://github.com/AmineAndam04/Unity-ML-LLAPI/assets/49843367/d8d9f353-fb21-4dd1-bb29-29a56bb651e5">
 
+8. Add a Decision Requester
+
+   
  9. For now, we only have numerical observations. In some scenarios, we may be interested in having visual observations, i.e. to use an architecture with CNNs. In the inspector of your agent, go to Add Component, and look for Camera Sensor.
 
 <img width="330" alt="Screenshot 2023-10-11 at 15 38 54" src="https://github.com/AmineAndam04/Unity-ML-LLAPI/assets/49843367/1a4b6f7b-a8a2-4610-91f7-e159d2171424">
@@ -86,5 +90,10 @@ public class AgentScript : Agent
 <img width="338" alt="Screenshot 2023-10-11 at 15 44 14" src="https://github.com/AmineAndam04/Unity-ML-LLAPI/assets/49843367/e2822f96-149a-45b1-9994-970980b7592e">
 
     
-13. 
+12. Now let's export the environment so that we can interact with it using Python. Go to `File`, and choose `Build Settings`. In the window that pops up, set the `Target Platform` and the `Architecture`. Don't forget to check the `Development Build`. Then click on `Build` at the bottom and choose a folder.
+
+<img width="644" alt="Screenshot 2023-10-11 at 16 06 02" src="https://github.com/AmineAndam04/Unity-ML-LLAPI/assets/49843367/491819a9-d79d-4c88-a605-338c69eeb236">
+
+    
+14.  
 
